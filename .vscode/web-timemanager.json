@@ -1,0 +1,28 @@
+{
+  "totalTime": 0,
+  "startTime": 1577919584215,
+  "project": "App-Server",
+  "url": null,
+  "timeSpend": [
+    {
+      "time": 0,
+      "data": "01/01/2020"
+    },
+    {
+      "time": 0,
+      "data": "08/01/2020"
+    },
+    {
+      "time": 0,
+      "data": "09/01/2020"
+    },
+    {
+      "time": 0,
+      "data": "12/01/2020"
+    },
+    {
+      "time": 0,
+      "data": "13/01/2020"
+    }
+  ]
+}
