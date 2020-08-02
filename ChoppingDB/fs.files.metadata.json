@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"ChoppingDB.fs.files"},{"v":{"$numberInt":"2"},"key":{"filename":{"$numberInt":"1"}},"name":"filename_1","ns":"ChoppingDB.fs.files"}],"uuid":"974295f9fe434994992db38cd4a99a51"}

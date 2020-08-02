@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "MyDatasource": {
-    "host": "localhost",
+    "host": "cluster0.9xonf.mongodb.net",
     "port": 27017,
-    "url": "",
-    "database": "ChoppingDB",
-    "password": "",
+    "url": "mongodb+srv://userTest:usertest@cluster0.9xonf.mongodb.net/test_db?retryWrites=true&w=majority",
+    "database": "test_db",
+    "password": "usertest",
     "name": "MyDatasource",
-    "user": "",
+    "user": "userTest",
     "useNewUrlParser": true,
     "connector": "mongodb"
   },
