@@ -15,11 +15,12 @@
     "connector": "mongodb"
   },
   "local-storage": {
-    "host": "localhost",
+    "host": "cluster0.9xonf.mongodb.net",
+    "url": "mongodb+srv://userTest:usertest@cluster0.9xonf.mongodb.net/test_db?retryWrites=true&w=majority",
     "port": 27017,
-    "database": "ChoppingDB",
-    "username": "",
-    "password": "",
+    "database": "test_db",
+    "username": "userTest",
+    "password": "usertest",
     "name": "local-storage",
     "connector": "loopback-component-storage-gridfs"
   }
