@@ -36,7 +36,7 @@
     "public": false
   },
   "Container": {
-    "dataSource": "MyDatasource",
+    "dataSource": "local-storage",
     "public": true
   },
   "Utilisateur": {
