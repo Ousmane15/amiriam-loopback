@@ -15,13 +15,18 @@
     "connector": "mongodb"
   },
   "local-storage": {
-    "host": "cluster0.9xonf.mongodb.net",
+    "name": "local-storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/storage"
+  },
+  "upload-storage": {
     "url": "mongodb+srv://userTest:usertest@cluster0.9xonf.mongodb.net/test_db?retryWrites=true&w=majority",
     "port": 27017,
     "database": "test_db",
     "username": "userTest",
     "password": "usertest",
-    "name": "local-storage",
-    "connector": "loopback-component-storage-gridfs"
+    "name": "upload-storage",
+    "connector": "loopback-component-storage-mongo-gridfs"
   }
 }

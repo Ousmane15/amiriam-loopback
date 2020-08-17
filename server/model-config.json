@@ -35,10 +35,6 @@
     "dataSource": "db",
     "public": false
   },
-  "Container": {
-    "dataSource": "local-storage",
-    "public": true
-  },
   "Utilisateur": {
     "dataSource": "MyDatasource",
     "public": true
@@ -53,6 +49,10 @@
   },
   "Notification": {
     "dataSource": "MyDatasource",
+    "public": true
+  },
+  "Container": {
+    "dataSource": "upload-storage",
     "public": true
   }
 }
